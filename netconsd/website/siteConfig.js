@@ -15,7 +15,7 @@ const siteConfig = {
   url: 'https://facebook.github.io' /* your website url */,
   baseUrl: '/netconsd/' /* base url for your project */,
   projectName: 'netconsd',
-  organizationName: "facebook",
+  organizationName: "facebookmicrosites",
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
@@ -28,9 +28,9 @@ const siteConfig = {
     
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/netconsd_fullcolor.svg',
-  footerIcon: 'mg/netconsd_fullcolor.svg',
-  favicon: 'img/favicon/netconsd_fullcolor.svg',
+  headerIcon: '',
+  footerIcon: '',
+  favicon: 'img/oss-color-logo.png',
   /* colors for website */
   colors: {
     primaryColor: '#d1a060',
@@ -71,7 +71,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/facebook/fbkutils/tree/master/netconsd',
+  repoUrl: 'https://github.com/facebookmicrosites/bpf',
 };
 
 module.exports = siteConfig;
